@@ -18,4 +18,4 @@ packages.
  * Run SampleApp class it will shows instructions. 
 
 #### Key Methods
-Methos **setLogLevelByPackage** is used to change log level based on package.
+* Method **setLogLevelByPackage** is used to change log level based on package.
