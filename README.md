@@ -17,3 +17,13 @@
 
 #### Key Methods
 * Method **setLogLevelByPackage** is used to change log level based on package.
+
+```
+
+  private static void setLogLevelByPackage(String packageName, String logLevel) {		
+		org.apache.log4j.Logger customLoggerPackage = org.apache.log4j.Logger.getLogger(packageName);		
+		Level loglevel=getLogLevelByName(logLevel.toUpperCase());
+		customLoggerPackage.setLevel(loglevel);		
+	}
+
+```
